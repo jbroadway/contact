@@ -1,0 +1,25 @@
+<form method="post" id="{{_form}}">
+
+<p>
+	{"Name"}:<br />
+	<input type="text" name="name" value="{{name|quotes}}" size="40" />
+	<span class="notice" id="name-notice">{"Please enter your name."}</span>
+</p>
+
+<p>
+	{"Email"}:<br />
+	<input type="email" name="email" value="{{email|quotes}}" size="40" />
+	<span class="notice" id="email-notice">{"Please enter your email."}</span>
+</p>
+
+<p>
+	{"Comments or questions"}:<br />
+	<textarea name="comments" cols="60" rows="6">{{comments}}</textarea>
+	<span class="notice" id="comments-notice">{"Please enter your comments or questions."}</span>
+</p>
+
+<p>
+	<button>{"Send"}</button>
+</p>
+
+</form>
