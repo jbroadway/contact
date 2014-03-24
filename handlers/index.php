@@ -1,5 +1,6 @@
 <?php
 
+$page->id = 'contact';
 $page->title = __ ('Contact');
 
 $form = new Form ('post', $this);
